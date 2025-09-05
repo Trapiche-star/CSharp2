@@ -7,10 +7,10 @@ public class AssingmentDemo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        /*string name = "홍길동";
+        string name = "홍길동";
         int age = 19;
 
-        Debug.Log($"이름은 {name}, 나이는 {age}");*/
+        Debug.Log($"이름은 {name}, 나이는 {age}");
 
         // 변수 선언 및 초기화
         int i = 100;
