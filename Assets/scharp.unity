@@ -119,7 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &759067212
+--- !u!1 &379006569
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,15 +127,18 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 759067214}
-  - component: {fileID: 759067217}
-  - component: {fileID: 759067218}
-  - component: {fileID: 759067219}
-  - component: {fileID: 759067220}
-  - component: {fileID: 759067221}
-  - component: {fileID: 759067222}
-  - component: {fileID: 759067223}
-  - component: {fileID: 759067224}
+  - component: {fileID: 379006572}
+  - component: {fileID: 379006571}
+  - component: {fileID: 379006570}
+  - component: {fileID: 379006573}
+  - component: {fileID: 379006574}
+  - component: {fileID: 379006575}
+  - component: {fileID: 379006576}
+  - component: {fileID: 379006577}
+  - component: {fileID: 379006578}
+  - component: {fileID: 379006579}
+  - component: {fileID: 379006580}
+  - component: {fileID: 379006581}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -143,13 +146,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &759067214
+--- !u!114 &379006570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379006569}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b2663ce114fd34eb7a3b07fd623038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Field.FieldPublic
+--- !u!114 &379006571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379006569}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e974e35a6beb414b909878d67a15853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Field.FieldDemo
+--- !u!4 &379006572
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759067212}
+  m_GameObject: {fileID: 379006569}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0}
@@ -158,102 +185,114 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &759067217
+--- !u!114 &379006573
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759067212}
+  m_GameObject: {fileID: 379006569}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a3489e5e1891ad49b1e72f1abb7df26, type: 3}
+  m_Script: {fileID: 11500000, guid: e69acebe7be9c5245aa81b0610db7a2d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LinqCount
---- !u!114 &759067218
+  m_EditorClassIdentifier: Assembly-CSharp::Field.FieldPublicPrivate
+--- !u!114 &379006574
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759067212}
+  m_GameObject: {fileID: 379006569}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1aba9e8081cae647b91c68c6e5cd249, type: 3}
+  m_Script: {fileID: 11500000, guid: b136e2fff837bb742a911c8a9fe473fb, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LinqSost
---- !u!114 &759067219
+  m_EditorClassIdentifier: Assembly-CSharp::Field.FieldNote
+--- !u!114 &379006575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759067212}
+  m_GameObject: {fileID: 379006569}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 084a776610f6c0744a16958ebeaa9b09, type: 3}
+  m_Script: {fileID: 11500000, guid: 32f4380307c91ed4c840bc77b7335b9d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LinqSum
---- !u!114 &759067220
+  m_EditorClassIdentifier: Assembly-CSharp::Field.StaticDemo
+--- !u!114 &379006576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759067212}
+  m_GameObject: {fileID: 379006569}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62970fd6373a45a46af41bd6ef84d898, type: 3}
+  m_Script: {fileID: 11500000, guid: e01496096029f2548b57060e424eab07, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClassMethod
---- !u!114 &759067221
+  m_EditorClassIdentifier: Assembly-CSharp::Constructor.ConstructorDemo
+--- !u!114 &379006577
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759067212}
+  m_GameObject: {fileID: 379006569}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68e412ca30ba017428d7e8f5088f1397, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c0738e9707b7d048a932bb0a645f34b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StaticAndInstance
---- !u!114 &759067222
+  m_EditorClassIdentifier: Assembly-CSharp::Constructor.ConstructorNote
+--- !u!114 &379006578
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759067212}
+  m_GameObject: {fileID: 379006569}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec1fa22b74d457442b3fc3724551cb18, type: 3}
+  m_Script: {fileID: 11500000, guid: 9320e029116be3b4e8f0331ac6b2d72e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ToStingMethod
---- !u!114 &759067223
+  m_EditorClassIdentifier: Assembly-CSharp::Constructor.ContructorOverload
+--- !u!114 &379006579
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759067212}
+  m_GameObject: {fileID: 379006569}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c70f2fa6a9796f4cbe00a27d511bb5e, type: 3}
+  m_Script: {fileID: 11500000, guid: 9293ef44d47cde344b1bda11b941f4f9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClassArray
---- !u!114 &759067224
+  m_EditorClassIdentifier: Assembly-CSharp::Constructor.ConstructorDescription
+--- !u!114 &379006580
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759067212}
+  m_GameObject: {fileID: 379006569}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ae1a58e449bc89448d3359b1aeb5428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Constructor.ConstructorForword
+--- !u!114 &379006581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379006569}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73631117b13283c4ab75bd8db6eecb88, type: 3}
+  m_Script: {fileID: 11500000, guid: 99c731de05af3c94c978bf39942ab94a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NameSpaceNote
+  m_EditorClassIdentifier: Assembly-CSharp::Constructor.ContructorDestructor
 --- !u!1 &818135503
 GameObject:
   m_ObjectHideFlags: 0
@@ -529,4 +568,4 @@ SceneRoots:
   - {fileID: 818135506}
   - {fileID: 1534072500}
   - {fileID: 1951258962}
-  - {fileID: 759067214}
+  - {fileID: 379006572}
