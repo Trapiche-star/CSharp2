@@ -400,7 +400,6 @@ GameObject:
   - component: {fileID: 2090900186}
   - component: {fileID: 2090900187}
   - component: {fileID: 2090900188}
-  - component: {fileID: 2090900189}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -444,9 +443,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2090900183}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4c2a2d07da64284fa3afc1f6c0e075c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c8120fb695468742b552459576a081c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Indexer.IndexerDesription
+  m_EditorClassIdentifier: Assembly-CSharp::Property.PropertyAll
 --- !u!114 &2090900187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -456,22 +455,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2090900183}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 016f646c7743d0c4e9e7c3d73df1a948, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e8104101762f7d4e8f81f81f9eb5a3e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Delegate.DelegateDemo
+  m_EditorClassIdentifier: Assembly-CSharp::Indexer.IndexerDemo
 --- !u!114 &2090900188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090900183}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 808086fbaa4e930459b5758fca7a26ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Delegate.DelegateNote
---- !u!114 &2090900189
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -480,9 +467,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2090900183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3797bacff246ed4583bc8ae383cee33, type: 3}
+  m_Script: {fileID: 11500000, guid: 29d76d5c529750e44819f0d0217a0084, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Delegate.DelegateAll
+  m_EditorClassIdentifier: Assembly-CSharp::Indexer.IndexerNote
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
